@@ -72,7 +72,7 @@
 
 1. Adja meg az Ax=b lineáris egyenletrendszer megoldásainak számát! 
    
-   ![norm1](norm1.PNG)
+   ![norm1](norm1.png)
 
    Adott válasz: 1
 
@@ -80,7 +80,9 @@
 
 2. Ha az Ax=b lineáris egyenletrendszert szeretnénk megoldani, és a b vektor maximum 0.001 relatív hibával adott (∞-normában), akkor legfeljebb mennyi lehet a megoldás relatív hibája ∞-normában? A választ 4 tizedesjegyre kerekítve adja meg. 
 
-    ![norm2](norm2.PNG)
+    ![norm2](norm2.png)
+
+    [Segítség](https://comnuan.com/cmnn0100c/cmnn0100c.php)
 
     Normák, kondíciószámok.pdf / 19. dia
 
@@ -88,7 +90,7 @@
 
 3. Adja meg az Ax=b lineáris egyenletrendszer megoldásainak számát!
     
-    ![norm3](nrom3.PNG)
+    ![norm3](nrom3.png)
 
     Adott válasz: 1
 
@@ -96,9 +98,9 @@
 
     [Segítség](http://www.math.odu.edu/~bogacki/cgi-bin/lat.cgi?c=sys)
 
-4. Készítse el a lenti A mátrix LU-felbontását. Mi lesz az u33 elem? 
+4. Készítse el a lenti A mátrix lu-felbontását. Mi lesz az u33 elem? 
 
-    ![norm4](norm4.PNG)
+    ![norm4](norm4.png)
 
     Adott válasz: 0,1667
 
@@ -108,11 +110,11 @@
 
 5. Adja meg az alábbi mátrix ∞-normáját! 
 
-    ![norm5](norm5.PNG)
+    ![norm5](norm5.png)
 
     Adott válasz: 13
 
-    Segítség (MATLAB)
+    Segítség (matlab)
 
     ```matlab
     m = [-2 -1 3
@@ -124,11 +126,11 @@
 
 6. Adja meg az alábbi mátrix 1-normáját!
 
-    ![norm6](norm6.PNG)
+    ![norm6](norm6.png)
 
     Adott válasz: 10
     
-    Segítség (MATLAB)
+    Segítség (matlab)
 
     ```matlab
     m = [-1 -4 -3
@@ -140,7 +142,7 @@
 
 7. Adja meg az Ax=b lineáris egyenletrendszer megoldásainak számát!
 
-    ![norm7](norm7.PNG)
+    ![norm7](norm7.png)
 
     Adott válasz: 1
 
@@ -152,7 +154,7 @@
 
 1. Adott (t1,f1),...,(tm,fm) megfigyelésekre akarunk legkisebb négyzetes értelemben modellt illeszteni. Válassza ki azokat a modelleket, melyek az x1,x2,x3 ismeretlen paraméterek lineáris függvényei. 
 
-    ![kozel1](kozel1.PNG)
+    ![kozel1](kozel1.png)
 
     Segítség:
 
@@ -165,11 +167,11 @@
 
 2. Milyen érteket vesz fel az alábbi adatokra legkisebb négyzetes értelemben legjobban illeszkedő egyenes az 4.5 helyen? Adja meg az egyenes meredekségét és konstanstagját is (válaszait két tizedesjegyre kerekítse).
 
-    ![kozel2](kozel2.PNG)
+    ![kozel2](kozel2.png)
 
     Segítség 1: Legkisebb négyzetek.pdf / 17. dia
 
-    Segítség 2 (MATLAB):
+    Segítség 2 (matlab):
 
     ```matlab
     t = [0 1 2 5 10]
@@ -186,9 +188,9 @@
 
 3. Milyen érteket vesz fel az alábbi adatokra legkisebb négyzetes értelemben legjobban illeszkedő legfeljebb másodfokú polinom az 3.0 helyen? Válaszát két tizedesjegyre kerekítve adja meg.
 
-    ![koezl3](kozel3.PNG)
+    ![koezl3](kozel3.png)
 
-    Segítség (MATLAB):
+    Segítség (matlab):
 
     ```matlab
     t = [0 1 8 9 10]
@@ -202,11 +204,11 @@
 
 4. Milyen érteket vesz fel az alábbi adatokra legkisebb négyzetes értelemben legjobban illeszkedő F(t)=x1+x2sin(πt)+x3cos(πt) alakú modell az 0.2 helyen? Válaszát két tizedesjegyre kerekítve adja meg. 
 
-    ![kozel4](kozel4.PNG)
+    ![kozel4](kozel4.png)
 
     Segítség 1: Legkisebb négyzetek.pdf / 29, 30. dia
 
-    Segítség 2 (MATLAB):
+    Segítség 2 (matlab):
 
     ```matlab
     t = [0.1 0.3 0.7 0.8 0.9]'
@@ -226,9 +228,9 @@
 5. Milyen érteket vesz fel az alábbi adatokra legkisebb négyzetes értelemben legjobban illeszkedő F(t)=a+b/t
 alakú modell az 10.0 helyen? Adja meg a modell paramétereit is (válaszait két tizedesjegyre kerekítse). 
 
-    ![kozel5](kozel5.PNG)
+    ![kozel5](kozel5.png)
 
-    Segítség (MATLAB):
+    Segítség (matlab):
 
     ```matlab
     t = [1 3 4 5 5]'
@@ -258,7 +260,7 @@ alakú modell az 10.0 helyen? Adja meg a modell paramétereit is (válaszait ké
 
 1. A(z) (−10,−4) és (−5,−7) pontokra szeretnénk egyenest illeszteni az Octave polyfit függvényével. Melyik a helyes parancs? 
 
-    ![interpol1](interpol1.PNG)
+    ![interpol1](interpol1.png)
 
     Segítség: Interpoláció.pdf / 20. dia
 
@@ -266,11 +268,11 @@ alakú modell az 10.0 helyen? Adja meg a modell paramétereit is (válaszait ké
 
 2. Milyen érteket vesz fel a −2.0 helyen az a harmadfokú S spline, melyre S(−4)=26, S(0)=−2, S(3)=−11.0, S′(−4)=−27, S′(3)=6.0? 
 
-    ![interpol2](interpol2.PNG)
+    ![interpol2](interpol2.png)
 
     Segítség 1: Interpoláció.pdf / 67. dia
 
-    Segítség 2 (MATLAB):
+    Segítség 2 (matlab):
 
     ```matlab
     x = [-4 0 3];
@@ -283,13 +285,13 @@ alakú modell az 10.0 helyen? Adja meg a modell paramétereit is (válaszait ké
 
 3. Milyen érteket vesz fel a −4 helyen az a H polinom, melyre H(0)=3, H(2)=31, H′(0)=−4,H”(0)=6? 
 
-    ![interpol3](interpol3.PNG)
+    ![interpol3](interpol3.png)
 
     Passz.
 
 4. Milyen érteket vesz fel a(z) (9,−1) és (6,−10) pontokra illeszkedő egyenes a 7 helyen? 
 
-    Segítség (MATLAB):
+    Segítség (matlab):
     ```matlab
     x = [9, 6];
     y = [-1, -10];
@@ -305,7 +307,7 @@ alakú modell az 10.0 helyen? Adja meg a modell paramétereit is (válaszait ké
 
     Segítség 1: Interpoláció.pdf / 17., 18. dia
 
-    Segítség 2 (MATLAB):
+    Segítség 2 (matlab):
     ```matlab
     pp = [-3 0 -3 -2 1]
     polyval([-3 0 -3 -2], 3)
@@ -315,7 +317,7 @@ alakú modell az 10.0 helyen? Adja meg a modell paramétereit is (válaszait ké
 
 6. Milyen érteket vesz fel a(z) (0,2), (−9,218) és (−8,170) pontkra illeszkedő (legfeljebb) másodfokú polinom a 7 helyen? 
 
-    Segítség (MATLAB):
+    Segítség (matlab):
 
     ```matlab
     x = [0 -8 -9];
@@ -329,7 +331,7 @@ alakú modell az 10.0 helyen? Adja meg a modell paramétereit is (válaszait ké
 
 7. Milyen érteket vesz fel a(z) (−6,−4), (−4,1) és (7,5) pontokra illesztett szakaszonként lineáris interpolációs polinom a −3 helyen? 
 
-    Segítség (MATLAB):
+    Segítség (matlab):
     ```matlab
     x = [-4 7]
     y = [1 5]
@@ -342,7 +344,7 @@ alakú modell az 10.0 helyen? Adja meg a modell paramétereit is (válaszait ké
 
 8. Milyen érteket vesz fel a 3.7 helyen az a szakaszonként harmadfokú H Hermite-polinom, melyre H(0)=−1, H(1)=−3, H(4)=51, H′(0)=−2, H′(1)=−3, H′(4)=48?
 
-    Segítség(kinda?) (MATLAB):
+    Segítség(kinda?) (matlab):
     ```matlab
     % pontos választ ad
     spline([1 4], [-3 -3 51 48], 3.7)
@@ -359,7 +361,7 @@ alakú modell az 10.0 helyen? Adja meg a modell paramétereit is (válaszait ké
 
 9. Milyen érteket vesz fel a −4 helyen az a H polinom, melyre H(−5)=−301, H(1)=5, H′(−5)=201,H′(1)=9? 
 
-    Segítség (MATLAB):
+    Segítség (matlab):
     ```matlab
     spline([-5 1], [201 -301 5 9], -4)
     ```
@@ -368,7 +370,7 @@ alakú modell az 10.0 helyen? Adja meg a modell paramétereit is (válaszait ké
 
 10. Mennyi a(z) (1,−2), (−9,1308), (8,−21952) és (3,−60) pontokra illeszkedő Lagrange-polinom főegyütthatója? 
 
-    Segítség (MATLAB):
+    Segítség (matlab):
     
     ```matlab
     x = [1 -9 8 3];
@@ -399,11 +401,11 @@ alakú modell az 10.0 helyen? Adja meg a modell paramétereit is (válaszait ké
 
 1. Mennyi az f függvény [0.0,1.0] intervallum feletti integráljának közelítése trapézképlettel, ha a lenti adatok ismertek? 
 
-    ![numint1](numint1.PNG)
+    ![numint1](numint1.png)
 
     Segítség: Numerikus integrálás.pdf / 6. dia
 
-    Segítség 2(MATLAB):
+    Segítség 2(matlab):
     ```matlab
     x = [0 .2 .4 .6 .8 1];
     y = [3.2 1.7 3.4 2.5 1.8 3.2];
@@ -415,11 +417,11 @@ alakú modell az 10.0 helyen? Adja meg a modell paramétereit is (válaszait ké
 
 2. Az integral függvény segítségével közelítse az alábbi integrál értékét! 
 
-    ![numint2](numint2.PNG)
+    ![numint2](numint2.png)
 
     Segítség: Numerikus integrálás.pdf / 21. dia (+ 18., 19.)
 
-    Segítség 2 (MATLAB):
+    Segítség 2 (matlab):
     ```matlab
     f = @(x) (3.^x).*cos(x);
 
@@ -430,11 +432,11 @@ alakú modell az 10.0 helyen? Adja meg a modell paramétereit is (válaszait ké
 
 3. Az integral2 függvény segítségével becsülje meg az alábbi integrál értékét. 
 
-    ![numint3](numint3.PNG)
+    ![numint3](numint3.png)
 
     Segítség: Numerikus integrálás.pd / 28., 29. dia
 
-    Segítség 2 (MATLAB):
+    Segítség 2 (matlab):
     ```matlab
     f = @(x, y) sin(x + 3.* y) .*2.^(-5.*x+y);
     ymin = @(x) -1 -2.*x;
@@ -446,11 +448,11 @@ alakú modell az 10.0 helyen? Adja meg a modell paramétereit is (válaszait ké
 
 4. Az integral függvény segítségével közelítse az alábbi integrál értékét! 
 
-    ![numint4](numint4.PNG)
+    ![numint4](numint4.png)
 
     Segítség: Numerikus integrálás.pdf / 21. dia
 
-    Segítség 2 (MATLAB):
+    Segítség 2 (matlab):
 
     ```matlab
     f = @(x) cos(x) ./ (exp(2.*x) + sqrt(x));
@@ -462,9 +464,9 @@ alakú modell az 10.0 helyen? Adja meg a modell paramétereit is (válaszait ké
 
 5. Közelítse az alábbi integrál értékét az integral2 függvénnyel. 
 
-    ![numint5](numint5.PNG)
+    ![numint5](numint5.png)
 
-    Segítség (MATLAB):
+    Segítség (matlab):
     ```matlab
     f = @(x, y) x.* exp(((y.^2)./2)-(x.^2));
 
@@ -477,29 +479,32 @@ alakú modell az 10.0 helyen? Adja meg a modell paramétereit is (válaszait ké
 
 1. Négy internetoldalat figyelve azt látjuk, hogy az egyes odalak a másik háromból a lent felsoroltakra hivatkoznak. Az oldalak súlyait rendszeresen újraszámoljuk úgy, hogy minden oldal az éppen rendelkezésre álló súlyát egyforma arányban osztja szét azon oldalaknak, amikre hivatkozik. Adjon meg egy stabil súlyeloszlást! 
 
-    ![sajat1](sajat1.PNG)
+    ![sajat1](sajat1.png)
 
     Segítség: Sajátérték feladatok.pdf  / 12., 13. dia
 
-    Segítség (MATLAB): 
+    Segítség (matlab): 
 
     ```matlab
     A = [0 1/2 1/3 1/3
         1/3 0 1/3 1/3
         1/3 1/2 0 1/3
         1/3 0 1/3 0];
-
+    
     [v, u] = eig(A)
     % u legnagyobb pozitív értékéhez tartozó oszlop kell (ezesetben az 1.)
+    x = v(:, 1)
+
+    x ./ sum(x)
     ```
 
     Adott válasz: vT=[0.2813 0.25 0.2813 0.1875]
 
 2. Adja meg az alábbi mátrix abszolútértékben legnagyobb sajátértékét!
 
-    ![sajat2](sajat2.PNG)
+    ![sajat2](sajat2.png)
 
-    Segítség (MATLAB):
+    Segítség (matlab):
     ```matlab
     A = [-1 0 2
     0 -3 1
@@ -514,7 +519,7 @@ alakú modell az 10.0 helyen? Adja meg a modell paramétereit is (válaszait ké
 
 3. Az alábbi A mátrix és v vektor esetén milyen λ-ra lesz minimális az Av−λv vektor euklideszi normája?
 
-    ![sajat3](sajat3.PNG)
+    ![sajat3](sajat3.png)
 
     Passz 
 
@@ -522,9 +527,9 @@ alakú modell az 10.0 helyen? Adja meg a modell paramétereit is (válaszait ké
 
 4. Adja meg az alábbi mátrix abszolútértékben legnagyobb sajátértékéhez tartozó sajátvektorát! 
 
-    ![sajat4](sajat4.PNG)
+    ![sajat4](sajat4.png)
 
-    Segítség (MATLAB):
+    Segítség (matlab):
 
     ```matlab
     A = [-3 -3 2
@@ -543,11 +548,11 @@ alakú modell az 10.0 helyen? Adja meg a modell paramétereit is (válaszait ké
 
 5. Egy populációban az egyedek maximum 3 évig élnek. A lenti A mátrix adja a populáció átmeneti mátrixát (ha egy adott évben x az 1, 2 és 3 éves egyedek számát tartalmazó vektor, akkor egy év múlva az egyedek száma várhatóan Ax). Válassza ki melyik vektor ad egy stabil koreloszlást. 
 
-    ![sajat5](sajat5.PNG)
+    ![sajat5](sajat5.png)
 
     Segítség: Sajátérték feladatok.pdf / 7-10. dia
 
-    Segítség (MATLAB):
+    Segítség (matlab):
 
     ```matlab
     A = [0 3 1
@@ -571,7 +576,7 @@ alakú modell az 10.0 helyen? Adja meg a modell paramétereit is (válaszait ké
 
 1. Adja meg a p(x)=x5+7x4+18x3+20x2+8x polinom második legnagyobb zérushelyét.
 
-    ![opt1](opt1.PNG)
+    ![opt1](opt1.png)
 
     Nemlineáris egyenletek / 40. dia
 
@@ -583,23 +588,25 @@ alakú modell az 10.0 helyen? Adja meg a modell paramétereit is (válaszait ké
 
 2. Közelítse a cos(2x−1)−3sin(2x2+1)=0 egyenlet 0-hoz legközelebbi gyökét 4 tizedesjegy pontossággal!
 
-    ![opt2](opt2.PNG)
+    ![opt2](opt2.png)
 
     Nemlineáris egyenletek / 31., 32. dia
 
     ```matlab
     f = @(x) cos(2.*x - 1) - 3*sin(2.*(x.^2) + 1);
 
-    [xpot, fopt] = fsolve(f, 0)
+    [xopt, fopt] = fsolve(f, 0)
 
     xopt
     ```
+
+    (Inkább geogebra)
 
     Adott válasz: 0,9884
 
 3. Adja meg az f(x)=sin(x2−1)+xcos(x) függvény 0-hoz legközelebbi lokális minimumhelyét 4 tizedesjegyre kerekítve.
 
-    ![opt3](opt3.PNG)
+    ![opt3](opt3.png)
 
     Nemlineáris egyenletek / 36., 37. dia
 
@@ -619,7 +626,7 @@ alakú modell az 10.0 helyen? Adja meg a modell paramétereit is (válaszait ké
 4. Határozza meg az alábbi f függvény  [−2,2]×[−2,2]
 -be eső lokális minimumai közül a legkisebbet! Az eredményt 4 tizedesjegyre adja meg.
 
-    ![op4](op4.PNG)
+    ![op4](op4.png)
 
     f(x1,x2)=x51−2x31−x1+x52−2x32−x2
 
@@ -648,12 +655,14 @@ alakú modell az 10.0 helyen? Adja meg a modell paramétereit is (válaszait ké
 
     ![linprog1](linprog1.jpg)
 
+    Mennyi a maxilmális profit?
+
     ```matlab
     A = [2 4; 3 2; 2 0];
     b = [160; 120; 60];
     c = [-60; -80];
     also_kol = [0;0];
-    [f, val, ~, ~, lambda] = linprog(c, A, b, [], [], als_kol);
+    [f, val, ~, ~, lambda] = linprog(c, A, b, [], [], also_kol);
     f 
     val
     ```
@@ -681,7 +690,7 @@ alakú modell az 10.0 helyen? Adja meg a modell paramétereit is (válaszait ké
     **A helyes válasz: 0**
 
 
-3. Melyik LP modell tartozik az alábbi feladathoz?
+3. Melyik lp modell tartozik az alábbi feladathoz?
 
     Egy kis ruházati vállalat konfekció öltönyöket és női   kosztümöket gyárt. Minden kosztümön 4 $ haszna van, míg   minden öltönyön 6 $. Minden öltöny 1 óra illetve minden   kosztüm három óra szabást igényel. Egy kiszabott kosztümöt    2, míg egy kiszabott öltönyt 1 óra alatt lehet megvarrni.  Heti termelési terv elkészítéséhez tudjuk, hogy egy héten    maximum 50 óra fordítható szabásra és 60 varrásra. Az  anyagból rendelkezésre álló mennyiség feltételezésünk    szerint korlátlan.
 
